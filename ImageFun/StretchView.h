@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface StretchView : NSView
-
+@interface StretchView : NSView {
+    NSBezierPath *path;
+}
+-(NSPoint)randomPoint;
 @end
