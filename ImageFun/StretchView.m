@@ -10,6 +10,10 @@
 
 @implementation StretchView
 
-
+-(void)drawRect:(NSRect)Rect {
+    NSRect bounds = [self bounds];
+    [[NSColor greenColor] set];
+    [NSBezierPath fillRect:bounds];
+}
 
 @end
